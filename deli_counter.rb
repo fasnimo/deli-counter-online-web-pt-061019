@@ -5,12 +5,12 @@ def line(array)
   array.each do |name|
   newarray << ("#{number}. #{name}")
   number += 1
-
+  end
+  puts "The line is currently: #{newarray.join(" ")}"
 
   else
       puts "The line is currently empty."
-    end
-    puts "The line is currently: #{newarray.join(" ")}"
+
 end
 
 end
