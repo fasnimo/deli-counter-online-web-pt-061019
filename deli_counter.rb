@@ -12,3 +12,10 @@ def line(array)
       puts "The line is currently empty."
 end
 end
+
+def take_a_number(array, string)
+  array << string
+  position = array.length - 0
+  puts "Welcome, #{string}. You are number #{position} in line."
+
+end   
