@@ -1,7 +1,7 @@
 def line(array)
-  if array.length >= 1
   newarray = []
   number = 1
+  if array.length >= 1
   array.each do |name|
   newarray << ("#{number}. #{name}")
   number += 1
