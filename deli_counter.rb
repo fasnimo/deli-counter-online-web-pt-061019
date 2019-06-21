@@ -4,8 +4,7 @@ def line(array)
   number = 1
   array.each do |name|
   newarray << ("#{number}. #{name}")
-  number += 1
-  end
+  number += 1   
   puts "The line is currently: #{newarray.join(" ")}"
 
   else
