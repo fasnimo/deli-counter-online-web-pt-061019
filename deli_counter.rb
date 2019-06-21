@@ -8,3 +8,4 @@ if array.length >= 1
     puts "The line is currently: #{newarray.join(" ")}"
 end
 end
+end
